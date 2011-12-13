@@ -1,0 +1,778 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<meta charset="utf-8">
+	<title>Brandspace HTML CSS template - Help Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/custom-css/custom.css" type="text/css" media="screen">
+	<style type="text/css" media="screen">
+		
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h1 class="center">&ldquo;Brandspace&rdquo;</h1>
+		
+		<h3 class="center alt">&ldquo;Brandspace HTML CSS Template&rdquo; help documentation by &ldquo;pixelentity&rdquo; v1.0</h3>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 24/03/2011<br>
+					By: pixelentity<br>
+					Profile: <a href="http://themeforest.net/user/pixelentity">Themeforest</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our template. If you have any questions that are beyond the scope of this help file, please feel free to email us via our Envato profile page contact form <a href="http://themeforest.net/user/pixelentity">here</a>. Thanks.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<!--<hr>-->
+		
+		<h3 id="toc"><strong>Table of Contents</strong></h3>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#compressor">CSS & JS Compressor</a></li>
+			<li><a href="#fonts">Fonts Used</a></li>
+			<li><a href="#cufon">Cufon Font Replacement</a></li>
+			<li><a href="#newsletter">Newsletter Form Usage &amp; Customisation</a></li>
+			<li><a href="#contact">Contact Form Usage &amp; Customisation</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			<li><a href="#changelog">Change Log</a></li>
+		</ol>
+		
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="htmlStructure">A. <strong>HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This template consists of 15 HTML page layout templates. Each page have it's own set of features, some shared with others and some unique to that page. When customising this template to suit your needs, you are free to mix and match these layout template is what ever way you require. Now we will take each page template in turn and describe the features of that specific page.</p>
+		<ul>
+			<li>
+				<h4>General</h4>
+				<ul>
+					<li>The header and footer section of this template repeats on each page.</li>
+					<li>The jQuery tagline rotator below the header, repeats on all pages except the custom 404 error page.</li>
+					<li>The The main Content changes from page to page, sometimes having a sidebar, or alignment which differs from some or all other pages.</li>
+					<li>The connect bar, below the main content, contains social media links and a newsletter signup form. This section remains mostly unchanged on alll pages except blog and portfolio when it contains pagination.</li>
+					
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Homepage</h4>
+				<ul>
+					<li>Bespoke main banner. Custom built Kenburns Slideshow or swipe transition slideshow. See the <a href="#javascript">Javascript</a> section later in this document for more info.</li>
+					<li>The homepage contains a small sidebar on the left hand side of the page. This is the stastics box. Here you can oinsert some custom stats or interesting info about your business which a visitor can use to get a nice introduction to you. The statistics consist of 4no. images with optional links and a small description of the image underneath. If you do not require the image to contain a link, insert a "#" character into the "href" attribute. This has been designed to remove the click possibility on the images in this area.</li>
+					<li>In the mian content area of this page you can find at the top, a small section of plain text about you or your business, while at the bottom, site two images of some latest work from your portfolio. These images feature a lightbox to help view the images on a larger scale. For more info on the lightbox feature, please see the <a href="#javascript">Javascript</a> section later in this document.</li>
+					
+					
+				</ul>
+			</li>
+			<li>
+				<h4>Testimonial Page</h4>
+				<ul>
+					<li>Sidebar with 2 no. client testimonials.</li>
+					<li>Main right aligned text body with central image/thumb combination.</li>
+					
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Side Notes Page</h4>
+				<ul>
+					<li>Sidebar with notes to elaborate on items from the main body of text.</li>
+					<li>The sides note area supports images with caption, and the notes may contain links.</li>
+					<li>Insert note markers into the main body of text.</li>
+					
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Full Width Page</h4>
+				<ul>
+					<li>Sidebar with notes to elaborate on items from the main body of text.</li>
+					<li>The sides note area supports images with caption, and the notes may contain links.</li>
+					<li>Insert note markers into the main body of text.</li>
+					
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Minimal Text Page</h4>
+				<ul>
+					<li>Plain text body with simple heading and subheading, allowing your writing to stand out, for maximum impact.</li>
+					
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Our Services Page</h4>
+				<ul>
+					<li>3 Column page supporting various types of images &amp; headings.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Blog Main Page</h4>
+				<ul>
+					<li>Sidebar on left featuring search, text widget, facebook "like" button placeholder, Category widget, Popular Articles widget and Featured work widget with lightbox support.</li>
+					<li>Main content area supports 3 different post types, large image, small image and no image.</li>
+					<li>Meta details for each post is also shown here. Date, Author, and number of comments.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Blog Long Article Page</h4>
+				<ul>
+					<li>Sidebar on left same as on blog main page</li>
+					<li>Main content area supports images, block quotes, info boxes, code snippets, lists and download buttons. See the <a href="#css">css</a> section of this document for more infomation about how to insert these items. </li>
+					<li>Meta details for each post is also shown here. Date, Author, and number of comments.</li>
+					<li>Discussion area contains comments for use with a CMS</li>
+					<li>Below the discussion area is a comments form complete with validation css classes.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Blog Minimal Article Page</h4>
+				<ul>
+					<li>No sidebar on this page</li>
+					<li>Main content area supports same elements as normal blog article. </li>
+					<li>Discussion area shows how the page would look before any comments have been submitted.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Portfolio Main Page</h4>
+				<ul>
+					<li>Featured work images area at top contains a banner with 6 clickable thumbs and a main image area featuring the custom built ken Burns jQuery Plugin.</li>
+					<li>Image rotate automatically on set timer. Once mouse is over the banner including the thumbs, the timer pauses. </li>
+					<li>Remainder of page features other categories and 3 example items for each cateogry.</li>
+					<li>These items can be links to single category page or to sinlge project oage or may launch a lightbox plugin to show full image, or video.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Portfolio Single Category Page</h4>
+				<ul>
+					<li>Selection of thumbs of projects in the same category.</li>
+					<li>jQuery enhanced drop doen category description. Automatically retracts when rollout is detected.</li>
+					<li>Again items may launch lightbox plugin - for images of videos.</li>
+					<li>Items titles (links) and short descriptions supported.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Portfolio Single Project Page</h4>
+				<ul>
+					<li>Larger media items possible.</li>
+					<li>Embeded video which validates. See <a href="#javascript">javascript</a> section for more info.</li>
+					<li>Meta info shown in sidebar.</li>
+					<li>Twitter and Facebook button placeholders featured at top of main content, so your readers can share the content with friends.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Contact and/or Quote Page</h4>
+				<ul>
+					<li>General php contact form with validation.</li>
+					<li>Optional "Get-a-quote" form plus query type selector at top of page. </li>
+					<li>Integrated google Maps. See <a href="#javascript">javascript</a> section for more info. </li>
+					<li>Banner image and sidebar with quick access contact information.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>FAQ Page</h4>
+				<ul>
+					<li>Same sidebar content as main Contact page.</li>
+					<li>jQuery enhanced frequently asked questions. Click to open and click again to close. </li>
+					<li>Question items can be set to be open or closed on first load of the page. See <a href="#javascript">javascript</a> section for more info. </li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Custom 404 Page</h4>
+				<ul>
+					<li>Centrally positioned image with 404 message.</li>
+					<li>Link can be inserted on image to take users to another location. Defualt is homepage.</li>
+				</ul>
+				
+			</li>
+			
+			
+		</ul>
+		
+		<hr>
+
+		<!-- New Section  -->
+		
+		<h3 id="cssFiles">B. <strong>CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<ul>
+			<li>
+				<h4>Stylesheets</h4>
+				<p>This template uses 5 CSS stylesheets in total. These are broken down into 3 types:</p>
+				<ul>
+					<li>Helper Stylesheets.</li>
+					<li>Main Styles.</li>
+					<li>Additional Skin Styles.</li>
+				</ul>
+			</li>
+			<li>
+				<h4>Helper Stylesheets</h4>
+				<p>These css files consist of css frameworks to help with the creation of a blank canvas on which to build the main style information for the template. The achieve this by resetting the default styles of each browser and setting some new base styles for all items inlcusing typography. Another function of these styles is to provide a grid framework which makes it easier to achieve consistant page layouts acorss the whole template. The helper css files used in this template are as follows:</p>
+				<ul>
+					<li>Global Browser Reset.</li>
+					<li>Basic Typographic Styles.</li>
+					<li>960 Grid Framework.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Main Styles</h4>
+				<p>This is the main css file for the template. The files is strictured in the following way:</p>
+				<ul>
+					<li>Helper CSS3 classes.</li>
+					<li>General template-wide styles.</li>
+					<li>Page specific styles - each page in turn.</li>
+					<li>Conditional styles for Internet Explorer 7.</li>
+					<li>Conditional styles for Internet Explorer 8.</li>
+					<li>Conditional styles for Internet Explorer 9.</li>
+					<li>Styles for PrettyPhoto lightbox plugin.</li>
+				</ul>
+				<p>Each section of this stylesheet is marked with comments to help you find it, should you require to change anything.</p>
+				
+			</li>
+			<li>
+				<h4>Skin Stylesheets</h4>
+				<p>This template includes a dark skin in addition to the default light skin. The styles for the dark skin have been created in a separate stylesheet named "dark.css". This stylesheet only contains color, border and background image information and has nothing to do with any layout styles, and therefore this stylesheet must work along side the default stylesheet (See above). To activate the dark skin simply uncomment the line of code in the head section of each page's html file. Ensure this line is lower in the code than the line linking the main stylesheet. This line will look like this, just activate the line and the dark skin is switched on:</p>
+				<pre>
+	&lt;!-- color stylesheet --&gt;
+	&lt;!--&lt;link rel=&quot;stylesheet&quot; href=&quot;css/dark.css&quot; /&gt;--&gt;</pre>
+				<p>To creake a new skin, all you have to so is copy the "dark.css" to a new file. Change the required style information, and insert your new skin stylesheet like the "dark.css" as shown above. The dark stylesheet has been structured similarily to the main styesheet, as follwos:</p>
+				<ul>
+					<li>Template-wide dark styles.</li>
+					<li>Page specific dark styles - each page at a time.</li>
+					<li>Conditional dark styles for Internet Explorer 7.</li>
+				</ul>
+				
+			</li>
+			<li>
+				<h4>Editing Stylesheets</h4>
+				<p>In general, items are labelled semantically, so whether you are looking for the newsletter signup form, the testimonial section or one of the banner elements, simply look for this word in the CSS selectors and you will be in the right place. The CSS file follows a top to bottom sequence which is similar to the html. This measn the footer styles will be below the main content styles which will in turn be below the header styles, and each will be marked with comments.</p>
+				<p>It is alos a good idea when attempting to edit css styles, to use some kind of browser based source code inspector. The Google Chrome and Opera Browsers have once of these built in, while Mozilla Firefox requires ayou to download and install the "Firebug" add on, available <a href="http://getfirebug.com/">here</a>. To activate these inspectors simple right-click on an element who's style and mark-up information you would like to inspect, and select "Inspect Element" from the context menu. Amongst other things, this will tell you what selector you will need to edit in the css file in order to change the element's appearance.</p>
+				
+			</li>
+		</ul>
+		
+		<h3><strong>CSS Page/ Item Specific Styles</strong> - <a href="#toc">top</a></h3>
+
+		<ul>
+			<li>
+				<h4>Main Menu</h4>
+				<p>This template uses an atypical main navigation menu. The menu is organised into columns of related pages, with each column having a main title. Both the column titles and the items in a column may contain links. If a link is not required on a comlum title, do not remove any of the HTML mark-up, simply insert the "#" character into the "href" attributr of the item's link. The template has been set up to automatically remove the click and rollover possibilities for these items, if this condition have been satisifed. The following is an example of how a comumn title would look in each situation:</p>
+				<p>No link, rollover effect or click:</p>
+				<pre>&lt;li class=&quot;menu grid_2&quot;&gt;&lt;a href=&quot;#&quot; title=&quot;News&quot;&gt;News&lt;/a&gt;</pre>
+				<p>Link, rollover &amp; click effects active:</p>
+				<pre>&lt;li class=&quot;menu grid_2&quot;&gt;&lt;a href=&quot;news_page.html&quot; title=&quot;News&quot;&gt;News&lt;/a&gt;</pre>
+				<p>The effect described above only applies to the main menu column titles. If sub menu items (column list elements) are required to be removed,, this should be done by aditing the HTML mark-up, in the usual way.</p>
+			</li>
+			<li>
+				<h4>Tagline Rotator</h4>
+				<p>This item lets you insert a single or multiple taglines, welcome message, quotations or general announcment into the top part of each page. (except the Custom 404 page). The item is powered by jQuery and the delay between messages is set in the HTML mark-up. (See below) </p>
+				<pre>&lt;div id=&quot;tagline&quot; class=&quot;grid_16&quot; data-delay=&quot;6&quot;&gt;</pre>
+				
+				<p>Additionally each tagline can be given a separate alignment, which is specified by inserting a class into the "h4" tag. The alignment options are "left", "right", and "center". (See below)</p>
+				<pre>&lt;h4 class=&quot;left&quot;&gt;This is a jQuery tagline rotator. Easily set the text alingment on each one.&lt;/h4&gt;</pre>
+				
+				<p>If a tagline is only a single line of text (ie. doesn't wrap on to a 2nd line), then in order to center the tagline vertically in the rotator area, a class of "singleLine" need to be added to the "h4" element.(See below)</p>
+				<pre>&lt;h4 class=&quot;left sinlgeLine&quot;&gt;This is a jQuery tagline rotator. Single line centered vertically.&lt;/h4&gt;</pre>
+				<p>Each tagline supports links and to facilitate the clicking of these links, the timer will pause if the user rolls over the area with their mouse.</p>
+			</li>
+			<li>
+				<h4>HomePage Banner</h4>
+				<p>This item is a custom built slideshow featuring a bespoke jQuery Ken Burns Plugin and a "swipe" transition. The item supports image and video slides(Youtube and Vimeo). Slides are inserted into the slideshow via the HTML Mark-up. Each slide contains additional info, such as "Title", "Date" and "number of Comments" just in it's representing a blog article. See below for an example of one image, using the Ken Burns configuration options. See the <a href="javascript">Javascript</a> section for more information on these configuration parameters.</p>
+				<p>HTML Mark-up for each main banner slide:</p>
+				<pre>&lt;div data-delay=&quot;10&quot; data-zoom=&quot;out&quot; data-align=&quot;top, center&quot; data-pan=&quot;bottom, center&quot;&gt;
+	&lt;img data-src=&quot;img/home/kb_03.jpg&quot; src=&quot;img/icons/blank.png&quot; alt=&quot;Banner Image 3&quot; /&gt;
+	&lt;div&gt;
+		&lt;h1 class=&quot;clearfix&quot;&gt;&lt;a href=&quot;#&quot; title=&quot;Featured Item&quot;&gt;Item 3 Title&lt;/a&gt;&lt;/h1&gt;
+		&lt;h3&gt;Item Subtitle&lt;/h3&gt;
+		&lt;span&gt;Jan 08 2011&lt;/span&gt;
+		&lt;a href=&quot;#&quot; title=&quot;number of comments&quot;&gt;05&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+			</li>
+			<li>
+				<h4>Social Interaction</h4>
+				<p>This template contains placeholders for Facebook "like" buttons and Twitter "TweetIt" Buttons. These elements are currently only images with a link attached, but may be replaced with the code which you can download freely from each respective website. You will find these placeholders on the following pages:</p>
+				<ul>
+					<li>Blog Main Page - Sidebar (facebook).</li>
+					<li>Blog Long Article Page - Sidebar (facebook).</li>
+					<li>Contact Page - Sidebar (facebook).</li>
+					<li>FAQ Page - Sidebar (facebook).</li>
+					<li>Blog Long Article Page - Article Title (twitter).</li>
+					<li>Blog Minimal Article Page - Article Title (twitter).</li>
+					<li>Portfolio Project Page - Above Main Content (twitter &amp; facebook).</li>
+				</ul>
+				<p>Here is an example of one of these placeholders:</p>
+				<pre>&lt;!--facebook like widget--&gt;
+	&lt;div id=&quot;likeBtn&quot;&gt;
+	&lt;h3&gt;Like Brandspace?&lt;/h3&gt;
+	&lt;a href=&quot;#&quot; title=&quot;Like Brandspace&quot;&gt;
+		&lt;img src=&quot;img/icons/fb_like.png&quot; alt=&quot;facebook like button&quot; /&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</pre>
+				
+				<p>Additional to these placeholders, the "connect bar" which sits above the footer contains 5 social media icons. Here you can insert your favourite social media profile links. These icons are inserted via the css file using a sprite. To change these icons, open the sprite image in an image editing program and insert the "over" and "normal" start of your new icon. To insert a link onto the icon, so so in the HTML mark-up for each page.</p>
+				
+			</li>
+			<li>
+				<h4>CSS Helper Classes (General)</h4>
+				<p>This template's CSS file contains several helper css classes. These classes can be added to elements of HTML mark-up and they will apply all styles necessary to that item for a specific function. For an example of these elements please see the Blog Long Article Page. The classes and an example of their use are as follows:</p>
+				<ul>
+					<li>Highlighting text.</li>
+					<pre>&lt;span class=&quot;highlight&quot;&gt;Highlight some text&lt;/span&gt;</pre>
+					<li>Preformatted text.</li>
+					<pre>&lt;pre&gt;&lt;!-- Code snippets in here--&gt;&lt;/pre&gt;</pre>
+					<p>HTML code snippets must be encoded before they will display correctly inside a "pre" tag. An example of such an encoder can be found at the following <a href="http://www.opinionatedgeek.com/dotnet/tools/htmlencode/encode.aspx">link</a>.</p>
+					
+					<li>Headings featuring font replacement.</li>
+					<pre>&lt;h2&gt;Hand written font style&lt;/h2&gt;</pre>
+					<p>This template uses Cufon font replacement. See the <a href="#cufon">cufon</a> section for more info.</p>
+					
+				</ul>
+			</li>
+			<li>
+				<h4>CSS Helper Classes (Blog Pages)</h4>
+				<p>In addition to the above general css helper classes, this template's CSS file contains several helper css classes which are specific to the Blog related pages. These classes can be added to elements of HTML mark-up and they will apply all styles necessary to that item for a specific function. For an example of these elements please see the Blog Long Article Page. The classes and an example of their use are as follows:</p>
+				<ul>
+					<li>Block Quotation.</li>
+					<pre>&lt;blockquote&gt;&quot;Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.&quot;&lt;/blockquote&gt;</pre>
+					
+					<li>Notification Box / Warning Box.</li>
+					<pre>&lt;div class=&quot;infoBox&quot;&gt;Notification Box - Easily modify this style to create you&#39;re own!&lt;/div&gt;</pre>
+					<pre>&lt;div class=&quot;warningBox&quot;&gt;Warning Box - Easily modify this style to create you&#39;re own!&lt;/div&gt;</pre>
+					<p>Each of these separate items has its own styles applied. Resulting in different border colors, different icons ans different test colors. They are designed to be used in a blog article to highlight some particular detail, or in a tutorial post to remind readers of an important step.</p>
+					
+					<li>Download Button.</li>
+					<pre>&lt;div class=&quot;download&quot;&gt;&lt;div&gt;&lt;a href=&quot;#&quot;&gt;Download Button Centered&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;</pre>
+					<p>The above download button class creates a button which is centered within the article's width, irrespective of the button's label length.</p>
+					
+					<li>Small Image Alignment.</li>
+					<pre>&lt;img class=&quot;alignRight&quot; src=&quot;img/blog_main/feat_02.jpg&quot; width=&quot;120&quot; height=&quot;120&quot; /&gt;</pre>
+					<p>This shows this class required for aligning an image to the right hand side. The "width" and "height" attributes are required in this instance to that the text flow around the image can be controlled. Similarly a class of "alignLeft" would need ot be used to align the image to the other edge of the article bogy area. See the Blgo Post Minimal page for an example of these classes being used.</p>
+				</ul>
+			</li>
+			<li>
+				<h4>CSS Page Layout Customisation</h4>
+				<p>When you wish to creake a custom page for your own needs, you should first examing all of the included page templates and deside which template is most suitable to form the basis for your new page. If you page will be mostly text and will be the full width of the site, then you would choose the "Full Width" page template. Or if your page and your content would be better displayed in a column based layout, then perhaps you could chose the "Services" page template. The point is that each template offers a unique set of layout options and chosing the correct template will make it very easier for you once you begin to work on the placement of your content.</p>
+				<ul>
+					<li>Services Page</li>
+					<p>This page template supports the use of 1,2 or 3 columns. To set up a column layout format you need to create a div HTML element, give it an id which corresponds to what number column it is, for example column 1 received an id of "col1". Next the div element needes to be given a class "col_3", because there will be 3 columns on the page. Then if the column is either the first or the third, it will also need a class of "edge", so that it's default margins are removed and it will fit within the width of the page. Each of these are shown here below, in the div element of the first column.</p>
+					<pre>&lt;div id=&quot;col1&quot; class=&quot;col_3 edge&quot;&gt;</pre>
+					<p>Inside these columns you can easily place all the normal elements, such as paragraphs of text, images , titles etc. And also use some of the CSS helper classes described above.</p>
+					
+					
+					<li>Full Width Page</li>
+					<p>In this page template the column number is a little more flexible than in the "Services" page. Here the options are 1 column (full width) , 2 columns or 4 columns. Similarly to how it was done in the service page the number of desired columns are specified using a class. This class taked the form "col_number" where "number" is either 2 or 4. In the case of full width, 1 column, the no class needs to be added. The following is an example of  each column setup:</p>
+					<p>Full Width Text (1 column)</p>
+					<pre>&lt;p&gt;&lt;span&gt;Column Title&lt;/span&gt;Sed egestas, ante et vulputate...&lt;/p&gt;</pre>
+					<p>Two Columns of Text</p>
+					<pre>&lt;p  class=&quot;col_2&quot;&gt;&lt;span&gt;Column Title&lt;/span&gt;Sed egestas, ante et...&lt;/p&gt;</pre>
+					<p>Four Columns of Text</p>
+					<pre>&lt;p  class=&quot;col_4&quot;&gt;&lt;span&gt;Column Title&lt;/span&gt;Sed egestas, ante et...&lt;/p&gt;</pre>
+					
+					<li>General CSSS & HTML Customisation</li>
+					<p>In general, when you wish to use on of the layout features provided in this template you should keep an original copy of the template's mark and css files and refer back to those. This template has been set up to demonstrate its features and therefore you will find example throughout the template of how classes need to be applied, how the various javascript item's parameters need to be entered, and how the mark-up need to be structured. Follow these examples and customising the template to suits your needs should be a fast and smooth process.</p>
+				</ul>
+			</li>
+		</ul>
+		
+		
+
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="javascript">C. <strong>JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This template contains numerous Javascript enhanced items. These are as follows:</p>
+		
+		<ul>
+			<li>Homepage Banner Slideshow with Ken Burns Plugin</li>
+			<li>Tagline Rotator</li>
+			<li>PrettyPhoto Lightbox Plugin</li>
+			<li>Twitter Reader Plugin</li>
+			<li>Portfolio Gallery with Thumbanils with Ken Burns Plugin</li>
+			<li>Video Object</li>
+			<li>Google Maps Object</li>
+			<li>FAQ Toggle Box</li>
+			<li>Contact / Get-a-Quote Form</li>
+			
+		</ul>
+		
+		<ul>
+			<li>
+				<h4>Homepage Banner Slideshow</h4>
+				<h5>Working Mode</h5>
+				<p>The slider component can work in 2 different modes.</p>
+				<ul>
+					<li>Ken Burns Mode - image is zoomed out/in and/or panned to defined direction according to each slide settings
+when slide changes, a crossfade transition is used.</li>
+					<li>Swipe Mode - a custom "swipe" transition will be applied when a new slide is loaded.</li>
+				</ul>
+				<p>The desired working mode can be chosen by using the "data-animate" attribute of the Banner's containing div. See below.</p>
+				<p>Ken Burns Mode</p>
+				<pre>&lt;div id=&quot;banner&quot;  class=&quot;grid_16&quot; data-animate=&quot;true&quot; &gt;</pre>
+				<p>Swipe Mode</p>
+				<pre>&lt;div id=&quot;banner&quot;  class=&quot;grid_16&quot; &gt;</pre>
+				
+				<h5>Info Panel</h5>
+				<p>The info panel's behaviour can be controlled with the "data-panel" attribute of the Banner's containing div. See below.</p>
+				<pre>&lt;div id=&quot;banner&quot;  class=&quot;grid_16&quot; data-animate=&quot;true&quot; data-panel=&quot;disabled&quot;&gt;</pre>
+				<p>This "data-panel" attribute accepts any of the following values:</p>
+				<ul>
+					<li>"hidden" - hidden by default</li>
+					<li>"disabled" - hidden by default and show button not available</li>
+					<li>"hideOnFirst" - visible by default, than auto hidden on first slide transition</li>
+					<li>"opened" - visible by default (you can change "opened" to any string you like)</li>
+				</ul>
+				
+				<p></p>
+				<h5>Per Slide Settings</h5>
+				<p>Each banner slide can have custom values to control keen burns, timings and transition type settings are defined using data-xxxx attributes, for example:</p>
+				<pre>&lt;div class=&quot;active&quot; data-delay=&quot;5&quot; data-zoom=&quot;out&quot; 
+     data-align=&quot;random&quot; data-pan=&quot;random&quot; data-duration=&quot;15&quot;&gt;</pre>
+				<p>The possible settings and their allowed values:</p>
+				<ul>
+					<li>Delay Setting
+					<p>Accepts a number, which defines the number of seconds before auto-loading of the next slide.</p>
+					</li>
+					<li>Transition Settings
+					<ul>
+						<li>"swipe" - swipe transition</li>
+						<li>"flyBy" - flyBy transition</li>
+						<li>"fade" - crossfade transition</li>
+						<li>"whitefade" - fade to white</li>
+					</ul>
+					</li>
+					<p></p>
+					<li>Ken Burns Settings
+					<ul>
+						<li>data-duration - kb transition duration in seconds (the higher the value, the slower the movement will be)</li>
+						<li>data-zoom - kb zoom mode. Accepted values are: "out", "in" or "random"</li>
+						<li>data-align - kb image alignment, format is "vertical, horizontal"</li>
+						<p>vertical values: "top", "center", "bottom"</p>
+						<p>horiz values: "left",	"center", "right"</p>
+						<p>example: "top,left" or "bottom,right" or "random"</p>
+						<li>data-pan - kb movement direction (from "data-align" to "data-pan")</li>
+						<p>vertical values: "top", "center", "bottom"</p>
+						<p>horiz values: "left",	"center", "right"</p>
+						<p>example: "top,left" or "bottom,right" or "random"</p>
+					</ul>
+					</li>
+				</ul>
+				<h5>Lazy Loading</h5>
+				<p>The Banner has been build to include Lazy Loading. Lazy loading means that each images in your slideshow will only be loaded when is about to be displayed. If your slideshow has a lot of images, you can activate lazy loading by setting image "src" attribute to a blank, small png (see download index.heml file for example) while using  the "data-src" attribute to define real path of the image. See below.</p>
+				<pre>&lt;img data-src=&quot;img/home/banner_13.jpg&quot; src=&quot;img/icons/blank.png&quot; alt=&quot;Banner Image 3&quot; /&gt;</pre>
+				
+				<h5>Video Slides</h5>
+				<p>This Banner has been designed to support video slides. Videos from Vimeo or YouTube may be shown. The slideshow will use flash to load the embedded video player, if flash is not available
+the banner will automatically redirect user to youtube or vimeo page. On iDevices this link should automatically open the default YouTube application shipped with Apple's iOS, while in the case of Vimeo the user will be taken to the HTML5 fallback version of Vimeo's video player. To embed a video from one of these sites,see the following example:</p>
+				<pre>&lt;a class=&quot;video hd autoplay loop&quot; href=&quot;http://vimeo.com/7809605&quot;&gt;
+	&lt;img src=&quot;img/home/banner_12.jpg&quot; alt=&quot;video cover image&quot; /&gt;
+&lt;/a&gt;</pre>
+				<ul>
+					<li>href - full Vimeo or YouTube single video url</li>
+					<li>class
+						<ul>
+							<li>video (required for loading a video into slideshow window)</li>
+							<li>hd (use hd resource)</li>
+							<li>autoplay (auto start playback)</li>
+							<li>loop (loop when video ends)</li>
+						</ul>
+					
+					</li>
+				</ul>
+				<p></p>
+				<h5>Normal Resource Links</h5>
+				<p>If class="video" is not defined, any resources will be loaded like a normal link</p>
+				
+			</li>
+			
+			<li>
+				<h4>Tagline Rotator</h4>
+				<p>Each page except the Custom 404 error page contains a tagline rotator. Thisis essentially a slideshow of text based items. These items may be one or two lines long. The lines may contain anchor tags, hence links. To allow users to click these links, the rotator has been designed to pause once a user rolls over the area with the mouse pointer. The delay time between items may be set globally in the tagline's containing div, using the "data-delay" attribute. See example below:</p>
+				<pre>&lt;div id=&quot;tagline&quot; class=&quot;grid_16&quot; data-delay=&quot;6&quot;&gt;</pre>
+				<p>Each tagline is located in a "h4" tag. If the amount of text entered in one "h4" tag is not long enough to wrap on to a second line, a class of "singleLine" needs to be added to the "h4" tag to instruct the item to center itself vertically within the rotator's container. Additionally each text item can be given a choice of 3 alignment settings, these are "center", "left" and "right" and must be added to the "h4" tag as a class also. See below for an example of these:</p>
+				<pre>&lt;h4 class=&quot;center sinlgeLine&quot;&gt;Set the alingment and vertical positioning for this single line&lt;/h4&gt;</pre>
+			</li>
+			<li>
+				<h4>PrettyPhoto Lightbox Plugin</h4>
+				<p>This is a "lightbox" style plugin which is used to view media in a larger size than would be possible to incorporate directly into the layout. It does this by overlaying a dark layer on top of the template and opening the media in a "modal" syle window in front of the overlay. This plugin can handle images, videos, inline data, swf files and iframes. Shown below is an example of incorporating the PrettyPhoto plugin on to an image. All that is required is the addition of the "rel="prettyPhoto" attribute.</p>
+				<pre>&lt;a href=&quot;img/largeImage.jpg&quot; rel=&quot;prettyPhoto&quot; title=&quot;Example Project Description Here&quot;&gt;
+&lt;img src=&quot;img/thumbImage.jpg&quot; alt=&quot;Example Image Title Here&quot; /&gt;
+&lt;/a&gt;</pre>
+				<p>This template has been configured to automatically add a rollover effect to each image to which the prettyPhoto pulgin is attached. The rollover effect consists of a white semi-transparent overlay and a dark icon. This icon is different for videos than for images, to illustrate the media type to the user before the user launches the lightbox. For more information and customisation options see the developer's website <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a>.</p>
+			</li>
+			<li>
+				<h4>Twitter Reader Plugin</h4>
+				<p>This template includes a twitter reader plugin. This item is located in the footer of each page. The account twitter account from which the latest wteet will be displayed must be entered into the element's containing "div" using the "data-username" attribute. See the example below:</p>
+				<pre>&lt;div id=&quot;twitter&quot; data-username=&quot;yourUsernameHere&quot;&gt;</pre>
+				<p>This plugin uses Twitter.com's search to find the latest twet from the chosen user's account. It should be remembered that Twitter.com doesn't index tweets which are more than 6 days old, and so if you are entering an account name which dones not have a tweet more recent than 6 days ago, the plugin may not reeturn any data. Additionally if your Tweiiter account was only opened recently, there may be some problems with your tweets being indexed by Twitter.com. Please see their <a href="http://dev.twitter.com/status">site</a> for more information on this and other ongoing support items relating to accessing tweet data from their servers.</p>
+			</li>
+			<li>
+				<h4>Portfolio Gallery with Thumbanils</h4>
+				<p>In the main Portfolio page of this template you will find a gallery / slideshow complete with 6 number thumbanils. Just like the Banner on the home page, this gallery supports the use of the Ken Burns plugin provided with this template. The delay on the slideshow may be set on a thumbnail by thumbnail basis and for reasons of user friendliness, the slideshow time pauses once a user rolls over the gallery area with the mouse pointer. Below you will find a list of the setting and their allowed values for this item.</p>
+				<p>To enable the Ken Burns effect set the "data-animate" attribute to "true". Setting it to false will revert to a simple fade in out transition between slides.</p>
+				<pre>&lt;div id=&quot;banner&quot;  class=&quot;grid_16&quot; data-animate=&quot;true&quot;&gt;</pre>
+				<p>Thumbanil Item example and allowable settings:</p>
+				<pre>&lt;li&gt;&lt;a data-delay=&quot;5&quot; href=&quot;BIGIMAGE&quot;&gt;&lt;img src=&quot;THUMB&quot; /&gt;&lt;/a&gt;&lt;/li&gt;</pre>
+				<ul>
+					
+					<li>Per Thumbnail Settings
+					<ul>
+						<li>data-delay - seconds before autoloading of next slide</li>
+						<li>data-zoom - kb zoom mode. Accepted values are: "out", "in" or "random"</li>
+						<li>data-align - kb image alignment, format is "vertical, horizontal"</li>
+						<p>vertical values: "top", "center", "bottom"</p>
+						<p>horiz values: "left",	"center", "right"</p>
+						<p>example: "top,left" or "bottom,right" or "random"</p>
+						<li>data-pan - kb movement direction (from "data-align" to "data-pan")</li>
+						<p>vertical values: "top", "center", "bottom"</p>
+						<p>horiz values: "left",	"center", "right"</p>
+						<p>example: "top,left" or "bottom,right" or "random"</p>
+						<li>data-duration - kb transition duration in seconds</li>
+					</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h4>Video Object</h4>
+				<p>To insert a video into this template, instead of using the default embed code from either Vimeo.com or TouTube.com, use the "video" class. This class and its settings allows control over the video item and ensures that your HTML mark-up will still validate. The "video" calss needs to be attached to an anchor "a" tag. See the following example:</p>
+				<pre>&lt;a class=&quot;video&quot; href=&quot;http://vimeo.com/13744687&quot; data-width=&quot;580&quot; data-height=&quot;326&quot;&gt;&lt;/a&gt;</pre>
+			</li>
+			<li>
+				<h4>Google Maps Object</h4>
+				<p>The Google map plugin contained in this template lets you easily embed a map by setting just few parameters. These parameters are as follows:</p>
+				<ul>
+					<li>data-latitude, data-longitude - location coordinates</li>
+					<li>data-title - clickable spot marker title</li>
+					<li>div "mapDescription" - the content of this div will be displayed as a popup if the user clicks the spot marker</li>
+				</ul>
+				<pre>&lt;div id=&quot;gmaps&quot; data-latitude=&quot;47.492269&quot; data-longitude=&quot;19.052868&quot; data-title=&quot;Brandspace&quot;&gt;
+ 	&lt;div id=&quot;mapDescription&quot;&gt;
+ 		Map info goes here
+ 	&lt;/div&gt;
+&lt;/div&gt;</pre>
+				<p></p>
+			</li>
+			<li>
+				<h4>FAQ Toggle Box</h4>
+				<p>The frequently asked question page contains collapsable elements. A user can freely open or close any of them by clicking on the element's title. If you wish that any of the items be closed upon first load of the page, just add a class of "closed" to the element's containing tag, like this:</p>
+				<pre>&lt;div class=&quot;item closed&quot;&gt;
+	&lt;div class=&quot;question&quot;&gt; 
+		&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;QUESTION&lt;/a&gt;&lt;/h3&gt;  
+	&lt;/div&gt;
+	&lt;div class=&quot;answer&quot;&gt;
+		&lt;p class=&quot;first&quot;&gt;ANSWER&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+				<p></p>
+			</li>
+			<li>
+				<h4>Portfolio Category Text Dropdown</h4>
+				<p>On the "portfolio_category_single.html" page can be found an expanding category description area. To show the expanded text a user needs to click on the "show more text" button. Once the area has expanded to reveal the additional text, all that is required to close the text field again is to roll off the area with the mouse pointer. When placing text into this expanding box, the text for the summary (that shown before the user clicks) and the text shown in the expanded area need to be entered separately into the HTML mark-up. Text required to be shown in the expanded area needs to be entered into the div with the id of "infoLong". This "infoLong" content will completely replace the summarized version, so this some content may need to be entered twice.</p>
+			</li>
+		</ul>
+		
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="compressor">D. <strong>CSS &amp; Javascript Compressor</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Included in package download is a compressor for both js and css files
+When using the compressor, all external css and js files are merged in a single compressed files. This has 2 advantages - both of which mean your page will load faster. </p>
+		<ul>
+			<li>A single request to server is used instead of multiple requests.</li>
+			<li>The single file is gzip compressed resulting in very small size for the css and js.</li>
+		</ul>
+		<p>The compressor requires php so it can only be enabled if supported by the hosting plan. To enable the compressor for a given page, edit the head section and remove all script and link 
+tags used to load external js or css and instead, add a single request for js and css. The code required for this is already located in the head section of each HTML file of this template, and look like this:</p>
+		<pre>&lt;!--CSS Compressor--&gt;
+&lt;!--Replace all css import statements with 1 of these options - see help file for more info.--&gt;
+&lt;!-- option 1 --&gt;
+&lt;!--&lt;link rel=&quot;stylesheet&quot; href=&quot;packs/jscsscomp.php?q=pack.css&quot; /&gt;--&gt;
+&lt;!-- option 2 --&gt;
+&lt;!--&lt;link rel=&quot;stylesheet&quot; href=&quot;packs/pack.css&quot; /&gt;--&gt;
+&lt;!--end css compressor--&gt;</pre>
+		<pre>&lt;!--Js Compressor--&gt;
+&lt;!--Replace all js import statements with 1 of these options - see help file for more info.--&gt;
+&lt;!-- option 1 --&gt;
+&lt;!--&lt;script type=&quot;text/javascript&quot; src=&quot;packs/jscsscomp.php?q=pack.js&quot;&gt;&lt;/script&gt;--&gt;
+&lt;!-- option 2 --&gt;
+&lt;!--&lt;script type=&quot;text/javascript&quot; src=&quot;packs/pack.js&quot;&gt;&lt;/script&gt;--&gt;
+&lt;!--end js compressor--&gt;</pre>
+		<p>As you can see, the compressor is passed a value (pack.js for js and pack.css for css). This value refers to a file which is located in the "packs" folder, has name of "pack.css" (compressor value) + ".files" (extension) and contains a list of each file that will be merged in the single compressed js or css. Here you can see an example of pack.css.files:</p>
+		<pre>minified/reset.css
+minified/960.css
+minified/text.css
+minified/style.css
+minified/prettyPhoto.css</pre>
+		<p>The "minified" folder has minified version of all js and css used for this template."Minified" basically means that all comments, unnecessary line breaks and spaces have been
+stripped from the original file, leading to a more optimized version. If you need to edit one of the source css or javascript files, you can minify it again use
+an online services like <a href="http://refresh-sf.com/yui/">http://refresh-sf.com/yui/</a>. Once that has been done, you can save the minified file into the "minified" folder.</p>
+		
+		<h4>Caching Compressed Files</h4>
+		<p>Compressing files can be quite a resource intensive operation so the compressor has the ability to save compressed files in the "packs/cache" directory instead of performing the same operation again and again for this to work, you need to make sure that "cache" folder is writable by php.</p>
+		
+		<h4>Pretty Urls</h4>
+		<p>If your hosting plan has apache mod rewrite support, you can enable the rules in .htaccess file which has been included in the download package. To enable rules, simply uncomment them. Enabling the following rule will allow you to use the more pretty compressor import statements, shown below, in the head of all HTML files:</p>
+		<pre>RewriteRule   ^packs/(\w+)\.(css|js)	packs/jscsscomp.php?q=$1.$2	[L,NC]</pre>
+		<p>Pretty</p>
+		<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;packs/pack.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;packs/pack.css&quot; /&gt;</pre>
+		<p>Not pretty</p>
+		<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;packs/jscsscomp.php?q=pack.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;packs/jscsscomp.php?q=pack.css&quot; /&gt;</pre>
+		
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="fonts">E. <strong>Fonts Used in Template</strong> - <a href="#toc">top</a></h3>
+		
+		<ol>
+			<li><a href="http://www.fonts101.com/fonts/view/Handwriting/5930/Ardleyshand_Regular.aspx">Ardleys Hand Regular</a> (cufon font replacement - hand written font).</li>
+			<li>Arial / Helvetica - System font Windows / Mac.</li>
+			<li>Georgia / Times - System fonts - (tagline rotator &amp; blockquotes).</li>
+		</ol>
+		
+			
+		<hr>
+			
+		<!-- New Section  -->
+		
+		<h3 id="cufon">F. <strong>Cufon Font Replacement</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This template uses Cufon font replacement. In particular the "h2" tag has been set up to become a hand writing style font by the name of <a href="http://www.fonts101.com/fonts/view/Handwriting/5930/Ardleyshand_Regular.aspx">Ardleys Hand Regular</a>. In order for this font replacement to work you must ensure that the Cufon javascript font import script is in place in the head of the page's HTML file. The import code looks like this:</p>
+					<pre>&lt;!-- font replacement --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/cufon_ie9.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/ArdleysHand_500.font.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+	    Cufon.replace(&#39;h2&#39;);
+&lt;/script&gt;
+&lt;!--end font replacement--&gt;</pre>
+		
+		
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="newsletter">G. <strong>Newsletter Form Usage &amp; Customisation</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This template contains a newsletter sign up form. This form functions by sending an email from the email address, which has been entered into the newsletter signup input field, to an address specified by the site owner, in the "newsletter.php" file. This PHP file can be found in the php folder inside the download package.</p>
+		<p>The subject and content of this email may be altered in this php file, to suit the requirements of your newsletter provider. The locations of these alterations are marked with comments in the PHP file and are shown here below.</p>
+		
+<pre>$subscribe = "youremail@yourdomain.com";  // insert your subscribe email address here</pre>
+
+<pre>$subject = "subscribed to the newsletter"; //subscribe email subject line & content
+	echo "THANK YOU FOR SUBSCRIBING"; //message appearing in form</pre>
+		
+		<p>The default message appearing in this newsletter signup field must be entered into the HTML mark-up of each page in which it appears. The default message must be entered twice. Once in the "value" attribute of the input element and a second time into the "data-default" attribute of the newsletter container "div". You can see both of these instances in the following code:</p>
+		<pre>&lt;!--newsletter signup form--&gt;
+&lt;div id=&quot;newsletter&quot; data-default=&quot;youremail@yourdomain.com&quot; data-subscribed=&quot;Thank you for subscribing.&quot;&gt;
+	&lt;form action=&quot;#&quot; method=&quot;POST&quot;&gt;
+	    &lt;input type=&quot;text&quot; name=&quot;email&quot; value=&quot;youremail@yourdomain.com&quot; /&gt;
+	    &lt;input type=&quot;submit&quot; value=&quot;submit&quot; /&gt;
+	&lt;/form&gt;
+	&lt;h2&gt;Sign Up to Our Newsletter!&lt;/h2&gt;
+&lt;/div&gt;</pre>
+		
+		<p>When an email has been successfully sent from this form a custom message is displayed to the user. This message can be altered also via the "data-subscribed" attribute of the newsletter container "div", as seen in the above code.</p>
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="contact">H. <strong>Contact &amp; Get-a-Quote Form Usage &amp; Customisation</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This template contains a combined contact and get-a-quote form. The get-a-quote section of the form is optional and maybe removed from the page by adding a class of "noquote" to the "form" tag. This is illustrated in the following code snippets:</p>
+		<p>Quote form activated:</p>
+		<pre>&lt;form  id=&quot;contactForm&quot; action=&quot;#&quot; method=&quot;POST&quot;&gt;</pre>
+		<p>Quote form deactivated:</p>
+		<pre>&lt;form  class=&quot;noquote&quot; id=&quot;contactForm&quot; action=&quot;#&quot; method=&quot;POST&quot;&gt;</pre>
+		
+		<p>This form functions by sending all of the details entered into the form by a uers, to an address specified by the site owner in the "contact.php" file. This file can be found in the "php" folder included in the download package. In this "contact.php" file other details of this form may also be changed. All items which may be changed will be marked with comments. These items are as follows:</p>
+		<ul>
+			<li>Subject line of the received email - So you know it has come from the website.</li>
+			<li>The message displayed to the user if the data was sent successfully.</li>
+			<li>The message displayed to the user if there was an error.</li>
+		</ul>
+		<p>Some of the fields have been marked as "required". Before sending the email, the form has been design ed to validate the information entered by the user into each of the "required" fields. So of these fields simply require that any information be entered, while others, such as the "email" field, requires that a valid email address be entered. If you require that an additional field be made a "required" field, simply give it a class of "required" in the HTML mark-up and it will be processed as such by the temokate's javascript. In the case of an error being detected. The error message entered above will be shown to the user and if this error has been caused by some data not passing validation, the specific field will be highlighter to the user. Shown here below are the lines to be changed in the "contact.php" file.</p>
+		
+		
+<pre>$to = "youremail@yourdomain.com";  // insert your contact email address here
+$subject = "Brandspace - Contact Form Message";  // this will be the subject line </pre>
+
+<pre>//Message displayed to user on success<br />
+echo '&lt;div class=&quot;sent&quot;&gt;&lt;br&gt;Your message has been sent successfully.&lt;br&gt;&lt;/div&gt;';</pre>
+
+<pre>//Message displayed to user on success<br />
+echo '&lt;div class=&quot;sent&quot;&gt;&lt;br&gt;Your message has been sent successfully.&lt;br&gt;&lt;/div&gt;';</pre>
+
+<pre>//Message displayed to user on failure<br />
+echo '&lt;div class=&quot;sent error&quot;&gt;&lt;br&gt;Error sending message.&lt;br&gt;&lt;/div&gt;';</pre>
+		
+		
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="credits">I. <strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Design and development of "brandspace" by <a href="http://activeden.net/user/bitfade">bitfade</a> &amp; <a href="http://activeden.net/user/iamdok">iamdok</a>.
+		
+		
+		<hr>
+		
+		<!-- New Section  -->
+		
+		<h3 id="changelog">J. <strong>Change Log</strong> - <a href="#toc">top</a></h3>
+		<p>There have been no updates to this item yet.</p>
+		
+		<hr>
+		
+		<!-- New Section  -->
+		<h3 id="outro"><strong>Thank You!</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Once again, thank you so much for purchasing this theme. If the above help documentation has not answered your questions, the following are your options:
+		
+			<ol>
+				<li>Go to the template's sales page on Themeforest, more specifically the discussion page, and read through the questions left there by other buyers. In general buyers tend to have similar questions, and if this is the case, then your questions is likely to have already been answered there.</li>
+				<li>If an answer to your question cannot be found on the discussion tab, feel free to leave a comment of your own. Be sure to describe your problem in as much detail as possible and we will get back to you as soon as we can.</li>
+				<li>Generally it is best to use the discussion tab to ask questions because when these are answered other buyers can read the answers and this avoids senseless repetition on our behalf. However if your questions deals with a sensitive issue, such as a quotation for customisation work, or a link to a demo site which you would not like to be public, then you may contact us using the email address at the top of this help file.</li>
+			</ol>
+		</p> 
+		
+		<p class="append-bottom alt large"><strong>regards, pixelentity</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
